@@ -11,7 +11,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/supabase": "^1.1.4",
     "@nuxtjs/tailwindcss": "^6.10.1",
+    "@supabase/supabase-js": "^2.39.0",
     "autoprefixer": "^10.4.16",
     "daisyui": "^4.4.19",
     "nuxt": "^3.8.2",

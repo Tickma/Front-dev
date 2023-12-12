@@ -1,5 +1,10 @@
+<script setup>
+const user = useSupabaseUser()
+</script>
+
 <template>
-  <div class="p-4">
-    <button class="btn">Hello daisyUI with Nuxt3</button>
+  <div class="container" style="padding: 50px 0 100px 0">
+    <Account v-if="user" />
+    <Auth v-else />
   </div>
 </template>
